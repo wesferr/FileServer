@@ -1,18 +1,16 @@
-# 
-A principio não avia entendido o funcionamento da assinatura Tive problemas de transferencia de dados sem o protobuf, resultando em gerar varios para coisas diferentes
-Implementei encriptação de mensagem ainda que fora dos requisitos A chave secreta compartilhada é gerada apartir de troca de chave Diffie-Helman, porem poderia ser estatica no cliente e no servidor.
+# Cliente e Servidor de arquivos similiar ao HTTP
 
 
-Para rodar baixe a biblioteca Crypto usando:
+## Para rodar baixe a biblioteca Crypto usando:
 
-pip3 install pycripto
+    pip3 install pycripto
 
 
 Cliente/Servidor HTTP simplificado com conexção TCP com troca de chaves Diffie-Hellman e Encriptação AES e validação de assinatura usando HMAC(MD5 HASH)
 
-COMO USAR:
+## COMO USAR:
 
-Servidor:
+### Servidor:
 
 Executar:
 
@@ -20,7 +18,7 @@ Executar:
 
 Para disponibilizar arquivos para os clientes coloque na pasta http, os clientes terão sua propria pasta e não excluirão arquivos desta pasta
 
-Client:
+### Client:
 
 Executar:
 
