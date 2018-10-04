@@ -14,24 +14,23 @@ COMO USAR:
 
 Servidor:
 
-    Executar:
-    '''
-    ./server.py <numero_da_porta>
-    '''
+Executar:
 
-    Para disponibilizar arquivos para os clientes coloque na pasta http, os clientes terão sua propria pasta e não excluirão arquivos desta pasta
+    ./server.py <numero_da_porta>
+
+Para disponibilizar arquivos para os clientes coloque na pasta http, os clientes terão sua propria pasta e não excluirão arquivos desta pasta
 
 Client:
 
-    Executar: ./client.py <ip_de_conexão> <numero_da_porta>
+Executar:
 
-    Como usar:
+    ./client.py <ip_de_conexão> <numero_da_porta>
 
-        '''
-        <comando> <nome_do_arquivo>
-    
-        Comandos: GET, POST, DELETE
-        GET: baixa arquivo do servidor
-        POST: envia arquivo para o servidor
-        DELETE: deleta um arquivo enviado para o servidor
-        '''
+Como usar:
+
+    <comando> <nome_do_arquivo>
+
+    Comandos: GET, POST, DELETE
+    GET: baixa arquivo do servidor
+    POST: envia arquivo para o servidor
+    DELETE: deleta um arquivo enviado para o servidor
