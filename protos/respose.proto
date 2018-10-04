@@ -1,0 +1,21 @@
+/*
+* Made by: Wesley Ferreia and Willian Ferreia
+*/
+
+syntax = "proto2";
+message Respose{
+
+  enum Status{
+    OK = 1;
+    ERROR = 2;
+  }
+
+  required Status status = 1;
+  required string serverInfo = 2;
+  required bytes signature = 3;
+  optional bytes content = 4;
+  optional string protocolVersion = 5;
+  optional string url = 6;
+  optional string encoding = 7;
+
+}

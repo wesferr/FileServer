@@ -1,0 +1,4 @@
+syntax = "proto2";
+message Men_size{
+  required fixed32 size = 1;
+}

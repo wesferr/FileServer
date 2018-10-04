@@ -1,0 +1,23 @@
+/*
+* Made by: Wesley Ferreia and Willian Ferreia
+*/
+
+syntax = "proto2";
+message Request {
+
+  enum Command {
+    GET = 0;
+    POST = 1;
+    DELETE = 2;
+  }
+
+  required Command command = 1;
+  required bytes signature = 2;
+  required string url = 3;
+  optional string protocolVersion = 4;
+  optional int32 clientId = 5;
+  optional string clientInfo = 6;
+  optional string encoding = 7;
+  optional bytes content = 8;
+
+}
