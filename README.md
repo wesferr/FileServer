@@ -1,6 +1,6 @@
 # 
-A principio n„o avia entendido o funcionamento da assinatura Tive problemas de transferencia de dados sem o protobuf, resultando em gerar varios para coisas diferentes
-Implementei encriptaÁ„o de mensagem ainda que fora dos requisitos A chave secreta compartilhada È gerada apartir de troca de chave Diffie-Helman, porem poderia ser estatica no cliente e no servidor.
+A principio n√£o avia entendido o funcionamento da assinatura Tive problemas de transferencia de dados sem o protobuf, resultando em gerar varios para coisas diferentes
+Implementei encripta√ß√£o de mensagem ainda que fora dos requisitos A chave secreta compartilhada √© gerada apartir de troca de chave Diffie-Helman, porem poderia ser estatica no cliente e no servidor.
 
 
 Para rodar baixe a biblioteca Crypto usando:
@@ -8,19 +8,22 @@ Para rodar baixe a biblioteca Crypto usando:
 pip3 install pycripto
 
 
-Cliente/Servidor HTTP simplificado com conexÁ„o TCP com troca de chaves Diffie-Hellman e EncriptaÁ„o AES e validaÁ„o de assinatura usando HMAC(MD5 HASH)
+Cliente/Servidor HTTP simplificado com conex√ß√£o TCP com troca de chaves Diffie-Hellman e Encripta√ß√£o AES e valida√ß√£o de assinatura usando HMAC(MD5 HASH)
 
 COMO USAR:
 
 Servidor:
 
-    Executar: ./server.py <numero_da_porta>
+    Executar:
+    '''
+    ./server.py <numero_da_porta>
+    '''
 
-    Para disponibilizar arquivos para os clientes coloque na pasta http, os clientes ter„o sua propria pasta e n„o excluir„o arquivos desta pasta
+    Para disponibilizar arquivos para os clientes coloque na pasta http, os clientes ter√£o sua propria pasta e n√£o excluir√£o arquivos desta pasta
 
 Client:
 
-    Executar: ./client.py <ip_de_conex„o> <numero_da_porta>
+    Executar: ./client.py <ip_de_conex√£o> <numero_da_porta>
 
     Como usar:
 
